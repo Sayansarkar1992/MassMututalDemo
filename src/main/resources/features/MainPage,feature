@@ -1,0 +1,16 @@
+Feature: Main page
+
+Background: User is Logged In
+	Given I navigate to the Main page and user is successfully navigated to MainPage
+
+Scenario:verify the right count of values appear on the screen
+    Then verify the right count of values appear on the screen
+
+Scenario:verify the values on the screen are greater than 0
+    Then verify the values on the screen are greater than 0
+
+Scenario:verify total value is correct
+    Then verify the total balance is correct based on the values listed on the screen and the total balance matches the sum of the values
+
+Scenario:verify the values are formatted as currencies
+    Then verify the values are formatted as currencies
